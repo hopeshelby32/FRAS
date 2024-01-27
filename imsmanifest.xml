@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<manifest identifier="ID-648C4EC4-8E2F-40C8-8F30-ECEC118340C5" version="1"
+       xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+       xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                           http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                           http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+	</metadata>
+	<organizations default="B0">
+		<organization identifier="B0">
+			<title></title> 
+			<item identifier="I_SCO0" identifierref="SCO0" isvisible="true">
+            <title>(null)</title>
+            <adlcp:masteryscore>100</adlcp:masteryscore>
+        </item>
+
+		</organization>
+	</organizations>
+	<resources>
+	    <resource identifier="SCO0" type="webcontent" adlcp:scormtype="sco" href="FRAS.html">
+            <file href="FRAS.html"/>
+            <dependency identifierref="ALLRESOURCES" />
+         </resource>
+
+		<resource identifier="ALLRESOURCES" type="webcontent" adlcp:scormtype="asset">
+            <file href="FRAS.html" />
+<file href="scripts/techsmith-smart-player.min.js" />
+<file href="scripts/embedded-smart-player.min.js" />
+<file href="skins/techsmith-smart-player.min.css" />
+<file href="FRAS_embed.css" />
+<file href="FRAS_Player.html" />
+<file href="media/FRAS.mp4" />
+<file href="FRAS_config.xml" />
+<file href="media/FirstFrame.png" />
+
+         </resource>
+	</resources>
+</manifest>
+
