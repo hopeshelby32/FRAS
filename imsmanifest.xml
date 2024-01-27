@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<manifest identifier="ID-648C4EC4-8E2F-40C8-8F30-ECEC118340C5" version="1"
+<manifest identifier="ID-115B7BCA-8C6E-4030-96AD-9134CB0EBC04" version="1"
        xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
        xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -12,9 +12,9 @@
 	</metadata>
 	<organizations default="B0">
 		<organization identifier="B0">
-			<title></title> 
+			<title>Fire Risk Assessment Score</title> 
 			<item identifier="I_SCO0" identifierref="SCO0" isvisible="true">
-            <title>(null)</title>
+            <title>Fire Risk Assessment Score</title>
             <adlcp:masteryscore>100</adlcp:masteryscore>
         </item>
 
